@@ -112,6 +112,15 @@ The br element tag does not have a closing tag, it dos not contain anything insi
 The pre element is used fotr indentation and white spaces
 code and pre elements are often combined to display code blocks without proper indentation
 The code , pre ,and br elements usually work together when working with code without executing it, pre and br keeps the indentation and line breaks 
+The three elements are handy for conveying the structure and appearance of code, as well as other types of content
+
+HTML SUPERSCRIPTS,SUBSCRIPTS,SMALL TEXT
+
+Superscripts , subscripts, and small text can be used when marking up certain bits as having different meaning
+Superscripts are set above the baseline of the text
+Subscripts are set below the normal baseline of the text
+Superscripts are mostly used in formulas, like 5<sup>2</sup>
+Subscripts can be used for footnotes
 
 
  
