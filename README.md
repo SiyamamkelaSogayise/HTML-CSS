@@ -1,9 +1,9 @@
 # HTML-CSS
 HTML and CSS
-Introduction to Html 
+<H3>Introduction to Html</H3> 
 
 
-Html Syntax
+<H3>Html Syntax</H3>
 
 Html is a language that uses tags enclosed in greater and less than sysmbols, used to create web pages.
 It has opening and closing tags.
@@ -25,14 +25,16 @@ Example of nested elements
 Like p, article also has a closing tag.
 Choice of Hmlt element affects the user's experience of the website as well as people with various disabilities.
 
-HTML PARAGRAPHS
+<H3>HTML PARAGRAPHS</H3>
 
 Paragraphs use p.
 Without the tag, the content would just look like a chunks of texts, once applied, information looks organised and readable. 
 The browser can now recognise paragraphs as individual pieces of text.
 
 
-HTML HEADLINES
+<H3>HTML HEADLINES</H3>
+
+
 Web pages usually have headings, subheadings and titles.
 Headlines serve the purpose of dividing the content into smaller, more digestible  chunks, which helps with the structure of the content.
 On landing pages,they act as the main content and are clickable, leading to more information pages .
@@ -42,7 +44,7 @@ The choice of a headline is not based on the appearance but on its meaning.
 The hierarchical  system it forms gives meaning to the browser , distinguishing what is most important from what is least important.
 Its important to use a consistent headline throughout trhe documents.
 
-HTML BOLD AND ITALICS
+<H3>HTML BOLD AND ITALICS</H3>
 
 There are 4 elements here, 2 for bold and 2 for italics.
 For italics, we use em and i.
@@ -55,7 +57,7 @@ We can define the style for different headlines using strong and b is used as a 
 Of the 4 elements, tw of them namely em and strong convey meaning and serve a language -related purpose.
 The other two i and  b that do not carry any specific meabning and are used soley for visual styling 
 
-HTML LISTS
+<H3>HTML LISTS</H3>
 
 List are a part of our daily lives, we use thrm more on the internet , they might not always look like a traditional list.
 For instance, a navigation bar with links is a list. 
@@ -73,7 +75,7 @@ For this list, we use the dt standing for definition term, side by side to a dd 
 The entire list is wrapped in a dl elements, representing definition list.
 The dt and dd are placed side ny side without any additional wrapper around them.
 
-HTML QUOTES
+<H3>HTML QUOTES</H3>
 
 We use cite to attribute a quote to a specific person.
 To distinguish a quote from a surrounding text, we wrap the whole thing in a blockquote element.
@@ -95,7 +97,7 @@ The machine readable prefers time in the 24 hour clock format, we can choose whe
 We can also specify time such as 15:45-05:00.
 You can combine date and time using the datetime attribute, you first include  the date and the time.
 
-HTML DATE AND TIME INPUTS  
+<H3>HTML DATE AND TIME INPUTS</H3>  
 
 Html use time element for date and time.
 Used to mark anything that specifies a time of day, a date or a duration.
@@ -103,7 +105,7 @@ We can use it like this <time>May 8th<time> or <time>May 8th, 2025<time>, depend
 The purpose of time us to convey the exact time and date to computers.
 The datetime attribute allows us to specify the date and time in a format that computers can understand.
 
-HTML CODE, PRE AND BR
+<H3>HTML CODE, PRE AND BR</H3>
 
 code element is used to write code without executing it
 By default code is an inline element, meaning it remains part of the sentence its in
@@ -114,7 +116,7 @@ code and pre elements are often combined to display code blocks without proper i
 The code , pre ,and br elements usually work together when working with code without executing it, pre and br keeps the indentation and line breaks 
 The three elements are handy for conveying the structure and appearance of code, as well as other types of content
 
-HTML SUPERSCRIPTS,SUBSCRIPTS,SMALL TEXT
+<H3>HTML SUPERSCRIPTS,SUBSCRIPTS,SMALL TEXT</H3>
 
 Superscripts , subscripts, and small text can be used when marking up certain bits as having different meaning.
 Superscripts are set above the baseline of the text.
@@ -126,7 +128,7 @@ Small element is used to indicate that a text has very little prominence, small 
 Small is not used to make texts smaller, you can use CSS to adjust the size of a text.
 Just like strong marks something of importance, small is used to convey that something has little prominence. 
 
-HTML CAPABILITIES
+<H3>HTML CAPABILITIES</H3>
 
 We can view the code by right-clicking on the website and select inspect.
 This will open developer tools .
@@ -134,7 +136,7 @@ In the right pane you can see all the CSS used, left pane contains HTML.
 When the code executes, the browser attempts to correctany mistakes we might have made and hsows its version of the webpages.
 The inspector shows the DOM tree (Document Object Model).
 
-HTML ATTRIBUTES
+<H3>HTML ATTRIBUTES</H3>
 
 Html has additional attributes which add power to any element.
 Certain attributes are specific to particular elements such as daytime attributes , which we only use in the time elements.
@@ -152,25 +154,29 @@ The lang attribute allows us to specify the langiuage of the content  using a sh
 The dir attribute explicitly  ibndicates the direction in which the content flows, using "RTL" for right-to-left, "LTR" for left-to-right.
 These attributes , lang and  dir are considered global attributes and can be used on any element.
 
-ARIA ROLES
+<H3>ARIA ROLES</H3>
 
 These are extra attributes that add on html elements to make them more meangingful to help the browser know what they represent.
 Aria roles are useful in providing essential information to assistive technologies like screen readers , braille displays and magnifies.
 Aria roles provide the necessary tools to make the site accessible to everyone.
 
-FORMATTING HTML
+<H3>FORMATTING HTML</H3>
 
 Html does not pay much attention to line breaks, tabs and spaces.
 There are exceptions when you use code, pre and textarea elements or when handling white spaces with CSS.
 The browser does not care about anything more than single spaces.
 Some html elements are short because of the space concern back in the day, now we have full elemts like video and audio.
 The length of an element gives us a clkue of how long its been in existence .
-The newer elements always have a closing tags, some of the older ones do not.
+The newer elements always have  closing tags, some of the older ones do not.
 
-UNSUAL CHARACTERS
+
+<H3>UNSUAL CHARACTERS</H3>
 
 Symbols like <,> and & are important in html .
-If we write them with spaces , they appear as regular content, but if we start writing something that resembles an html element, it magically disappears 
+If we write them with spaces , they appear as regular content, but if we start writing something that resembles an html element, it magically disappears.
+The browser assumes its part of the html code and does not display it.
+
+<H3>HTML NAVIGATION LINKING</H3>
 
 
 
