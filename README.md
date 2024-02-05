@@ -193,8 +193,32 @@ In the past, webpages started with hjttp, now expert recommend HTTPs for enhance
 
 <h4>URL PATHWAYS</h4>
 When creating links, absolute URLsare one option.
-When clicking on a link on the same website and domain as the page containing the link, a relative URL can be used.
-When creating a relative url, omit the domain name but include the slash at the beginning
+When clicking on a link on the same website and domain as the page containing the link, a relative URL can be used instead.
+Creating a relative URL is not only useful for the A element but is aslo a skilled used to reference images, files , video files, CSS.
+The slashes in a URL indicate that we shoulkd look deeper into the file structure or go one level down.
+To create a relative URL, omit the domain name but include the slash at the beginning. 
+This tells the browser to start from the root of the file structure.
+We can also write the path to be relative to the file where the link is.
+Relative URLs are based on th current file's location, while absolute URLs start from the root of the website.
+
+<h4>Navigation</h4>
+Each line is wrapped in an element with the current URL, and then  enclosed in an "li" element  to create a list of links.
+To maintain the order , wrap the whole list in na "lo" element .
+Finally, encompass the entire list in a "nav" element to indicate that its the sits's navigation.
+Apply CSS for styling.
+Assign the role navigation to the nav element, which signifies it represents the main navigation of the page.
+Add an ariel label for the main menu, providing a descriptive label that can be read out loud by a screen reader.
+
+<h4>WORKING WITH GRAPHICS AND IMAGES</h4>
+
+When we want to add an image to a webpage, we use the image element, written as IMG.
+There are 4 attributes added to every image,
+<dl>
+    <dt>SRC</dt><dd>Which image to load</dd>
+    <dt>ALT</dt><dd>Text description of the image</dd>
+    <dt>Width and Height</dt><dd>Size of the image</dd>
+</dl>
+
 
 
 
