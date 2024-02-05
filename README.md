@@ -219,6 +219,20 @@ There are 4 attributes added to every image,
     <dt>Width and Height</dt><dd>Size of the image</dd>
 </dl>
 
+The image's URL is pasted into the source.
+ALT serves as replacement of the image when the image can't be seen.
+Browser needs to be informed of the image size in pixels.
+
+<h4>Image Formats</h4>
+Consider the image file before putting in a website.
+It needs to be in a file format that web browsers can understand , there are variouys options available.
+HTML aims for the highest quality with the smallest size achievable.
+Each file format deploys with a distinct approach to faster downloads and prevention of excessive data usage for users.
+<dl>
+    <dt>GIF</dt><dd>Great for compressing illustrations that have large areas of the same color,but falls short on photographs. Supports 256 colors </dd>
+    <dt>SVG</dt><dd>Perfect for logogs,icons, and other types of illustrations. A vector file that contains instructions for drawing rather than idividual pixels. Can be scaled without losing quality</dd>
+</dl>
+
 
 
 
