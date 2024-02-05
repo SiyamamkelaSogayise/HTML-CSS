@@ -178,7 +178,7 @@ The browser assumes its part of the html code and does not display it.
 
 <H3>HTML NAVIGATION LINKING</H3>
 
-HTML LINKS
+<h3>HTML LINKS</h3>
 links are everywhere, navigation bars, menus packed with options enticing tears cards, and pages full of clickable titles.
 We can use links to transport you to a whole new page or website.
 To create a link, we use the A tag, standing for anchor.
@@ -191,7 +191,7 @@ In an absolute URL, the HTTP or HTTPS part must be included which stands for hyp
 The  S in HTTPS stands for secure.
 In the past, webpages started with hjttp, now expert recommend HTTPs for enhanced security.
 
-URL PATHWAYS
+<h4>URL PATHWAYS</h4>
 When creating links, absolute URLsare one option.
 When clicking on a link on the same website and domain as the page containing the link, a relative URL can be used.
 When creating a relative url, omit the domain name but include the slash at the beginning
