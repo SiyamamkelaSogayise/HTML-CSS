@@ -178,7 +178,7 @@ The browser assumes its part of the html code and does not display it.
 
 <H3>HTML NAVIGATION LINKING</H3>
 
-<h3>HTML LINKS</h3>
+<h4>HTML LINKS</h4>
 links are everywhere, navigation bars, menus packed with options enticing tears cards, and pages full of clickable titles.
 We can use links to transport you to a whole new page or website.
 To create a link, we use the A tag, standing for anchor.
