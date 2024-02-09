@@ -260,7 +260,7 @@ The figire and figcaptions are useful for anything that serves as a visual illus
 
 <h3>WORKING WITH FILES</h3>
 
-<H4>ORKING WITH AUDIO</H4>
+<H4>WORKING WITH AUDIO</H4>
 The audio element has an opening and closing tag.
 This means its modern and has more power.
 We use source attribute to provide URL for the audio file.
@@ -275,7 +275,25 @@ Create multiple files and list them in separate source elements , if the browser
 Audio element is an excellent tool for embedding files and a player on the wedpage.
 
 <h4>WORKING WITH VIDEO</h4>
+Video element has open and closing tags.
+We use source attribute to specify the video filer.
+If the controls are added, the broswer will automatically create a video player.
+Ther are different codecs that can be used to encode video files.
+Video files contain a lot of data, if compressed , can become too large to be efficiently transmitted over the internet.
+The internet uses a mechanism to compress data into smaller packages.
+The video element allows us to include multiple source files, enabling the simultaneous use of different codecs.
+HTML lacks the built-in mechanism for sending different videos sizes based on network conditions .
+Big streaming platforms use a technique called adaptive bitrate streaming to carter for different network conditions.
+This complex process invloves a server farm of transcoding robots, ensuring seamless switch between different resolutions as users watch videos.
 
+<h4>WORKING WITH CAPTIONS,CAPTIONS,AND SUBTITLES</h4>
+We use a track element and link it to a text file and add captions to a video.
+The subtitlescan be turned on and off.
+A file called ibvtt standing for web video text tracks willbe used.
+In the file, each line of text is accomplanied by a time code , indicating when it should be displayed in the video.
+The track element is inserted inside the video element.
+On the track element inside the source attribute, use the kind attribute to indicate that it contains captions and a label attribute to display the caption option as Ënglish in the player .
+Additionally, use thge source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.
 
 
 
