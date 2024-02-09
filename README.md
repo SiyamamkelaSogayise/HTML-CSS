@@ -293,8 +293,46 @@ A file called ibvtt standing for web video text tracks willbe used.
 In the file, each line of text is accomplanied by a time code , indicating when it should be displayed in the video.
 The track element is inserted inside the video element.
 On the track element inside the source attribute, use the kind attribute to indicate that it contains captions and a label attribute to display the caption option as Ënglish in the player .
-Additionally, use thge source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.
+Additionally, use the source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.
+Some options for the kind attriute include using descriptions that allows us to create a vtt file that describves the visual elements of the video.
+Users can choose a track that read out loud these descriptions, making the video more accessible to those who are visually impaired.
+Chapter is another option that provides a text file listing the different scetions of the video, allowing users to jump to specific parts.
+Subtitles and captions are not only powerful but are required by law.
+Helps with website traffic growth
 
+<h3>EMBEDDING MEDIA VS IFRAMES</h3>
+
+Embeding refers to taking content from one site and placing it within the middle of another site's page.
+There is a wide range of content that can be embeded on a page.
+For instance, a map from google maps.
+It is common practice to embed complex content from a service that handles the technical aspects.
+Instead of figuring out how to build a mapping service,you can rely on someone else's toolkit to handle all of that.
+IFrame element has attributes like height and width that can be adjusted.
+The scr attribute is used to specify the source of the video file.
+While iframes are powerful, we need to consider security issues when pulling in code from another website.
+When using a content management system(CMS), you might not be able to simply copy and paste random embeded code from other websites.
+These CMS usually have specific ways to allow URLs or short codes from trusted sources.
+If multiple people will be be adding content to the system, do not allow iframes without considering security measures, but if only one person will be posting on thr website then its fine.
+
+<h3>HTML INDENTATION</h3>
+
+Html has tools to indicate the lnaguage of content.
+The lang attribute is used to specify the language of webpages.
+If the whole page is one language, its simple.
+Set the language on ther main html element that wraps everything else.
+"en-US" is the lanf attribute for US english.
+The lang attribute also indicates othetr qualities like the writing system.
+If is important to indicate the direction of the content.
+Unicode UTF-8 is the most popular.
+Charset are also important as the characters and alphabets.
+If informs the browser what characters  will be used.
+By including trhe lang, dir, and charset of the webpage, you contribute to a more inclusive future for the web.
+
+<h3>HTML GENERIC ELEMENTS , DIC AND SPAN</h3>
+
+Div is a block-level elements while span is an inline element.
+Divs are used to create sections, sidebars, and everything inbetween.
+Divs and spans come in handy when there is not anaother suitable element to use, acting as last resort options.
 
 
 
