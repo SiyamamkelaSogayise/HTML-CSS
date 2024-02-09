@@ -233,6 +233,50 @@ Each file format deploys with a distinct approach to faster downloads and preven
     <dt>SVG</dt><dd>Perfect for logogs,icons, and other types of illustrations. A vector file that contains instructions for drawing rather than idividual pixels. Can be scaled without losing quality</dd>
 </dl>
 
+<h3>RESPONSIVE IMAGES</h3>
+To carter for different browsers, using the img elemnts with its alt text and a URL to the image file.
+This ensures that even outdated browsers like internet explora II can display the image.
+Finally, wrap this image element with the picture element.
+Acts as a wrapper or the whole set up.
+List alternative options within the picture elemnt using source element.
+First source element use the source set attribute to point to a mobile image file.
+This will be the cropped version of the photo sized at pixels wide.
+This way, when the viewport is smaller than 600 pxels , this version of the image will be loaded.
+In the other source element, use a kind of media query to specify the image for larger screens.
+When the viewport is at least 600 pixels wide, the landscape version of the photo will load.
+This is a pretty neat trick that allows you to optimize the image for different screen sizes .
+The source set attribute is used in the source element , just like it is used in the image element .
+The browser switches between files, using the karger ones only when necessary, considering the viewport and retina screen.
+The browser switches to a wider verion when the viewport reaches 600 pixels
+
+<h3>FIGCAPTIONS AND FIGURE</h3>
+Figcaptions are used to caption a picture.
+The caption and picture are nested within a  figire element.
+Gives the browser more information about the relationship between the image and caption.
+A figcaption is not a regular paragraph or a generic div.
+Figures can be used for more than just images.
+You can use them in interactive graphics.
+The figire and figcaptions are useful for anything that serves as a visual illustration or demonstration that needs a caption.
+
+<h3>WORKING WITH FILES</h3>
+
+<H4>ORKING WITH AUDIO</H4>
+The audio element has an opening and closing tag.
+This means its modern and has more power.
+We use source attribute to provide URL for the audio file.
+There are different audio file formats to choose from.
+We have to let the browser know that we want controls like a play button, timeline, and volume control.
+Using the browsers built-in controls is optional.
+We can add custom controls by using the "controls" attribute .
+This will allow us to play, pause, adjust volume,see the time and navigate through the timeline.
+We can also use the loop and autoplay attributes with the audio element.
+Removing the source element inside the audio element and placing it in a separate element allows for the addition of other alternative audio file formats.
+Create multiple files and list them in separate source elements , if the browser does not support the audio element.
+Audio element is an excellent tool for embedding files and a player on the wedpage.
+
+<h4>WORKING WITH VIDEO</h4>
+
+
 
 
 
