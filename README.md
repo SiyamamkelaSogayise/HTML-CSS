@@ -328,11 +328,21 @@ Charset are also important as the characters and alphabets.
 If informs the browser what characters  will be used.
 By including trhe lang, dir, and charset of the webpage, you contribute to a more inclusive future for the web.
 
-<h3>HTML GENERIC ELEMENTS , DIC AND SPAN</h3>
+<h3>HTML GENERIC ELEMENTS , DIV AND SPAN</h3>
 
 Div is a block-level elements while span is an inline element.
 Divs are used to create sections, sidebars, and everything inbetween.
 Divs and spans come in handy when there is not anaother suitable element to use, acting as last resort options.
+
+<h3>HTML PAGES</h3>
+
+HTML files are a vital part of the web.
+When you want to visit a website, you open the broswer and enter a URL.
+The web server responds by sending back the specific html file located on that address.
+Everything needed to display in webpages used to be contained in a single html file, along with images , noiw thinmgs are more complex.
+Texts are stored in databases, multiple static files are combined in real time , customised for each user.
+CSS for styling, javascript in separate files, and additional video, images , audio and ads.
+What users see 
 
 
 
