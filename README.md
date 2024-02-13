@@ -427,5 +427,7 @@ This is great for  product comparisons, schedules, bits of information collected
 
 <H4>BUILDING HTML TABLES</H4>
 We have several html elements for creating a tables (table, tr, th, td).
-The tablke element wraps around the whole table.
- 
+The table element wraps around the whole table.
+Tr element stands for table rows wraps around a set of element, defining them as belonging to a row.
+Th stands for stands header and defines a header for a column.
+Td stands for table data and marks up the cells of data.
