@@ -386,6 +386,46 @@ Typical structures of the head include 6 important elements
     <dt>Aside</dt><dd>For content that is off to the side, like  sidebar information or additional details that accompany an article but are not part of its main flow</dd>
 </dl>
 
+<h3>WHEN IT ALL COMES TOGETHER</h3>
+Webpages are assembled out of hundreds of nested elements , each conveying meaning and each playing off of the other, adding up to the whole.
+The exact way to combine those html elements differs with every webapge created.
+There are several ways to combine webpages, no way is the right way, it depends on the content.
+There's art in structuring html.
+We are trying to represent human communication in code, and while code amy want to be correct and perfect, human connectins is no always.
 
+<h3>WORKING WITH FORMS, AND INTERFACE ELEMENTS</h3>
+<H4>FORM FUNDAMENTALS</H4>
+Esential part of the web for a long time.
+Used to get user inputs.
+Its inmportant to use semantic form elements in html instead of divs and spans because it allows us to leverage the built-in power of the browser.
+Using forms ensures compatibility with all the decives and input/output hardware, even those we may not be familiar with .
+The form element has both open and closing tags.
+Use the input element to provide spaces for the users to provide spaces for the users to input details.
+The input elements does not have a closing tag.
+Acts as a marker for the browser to bring in functionality and place it there.
+A button is needed to submit the form.
+Created by usng the biutton element.
+You can customize the name of the button to your needs .
+The form gets functionality from backedn development.
+Input texts have different types, from names, numners, and email addresses, all of these have different input types.
+When the format is not whjat the broswer expects, the user will get a warning.
+We have to indicate that a button is a submit button.
+We can pre-populate a field with a suggestion of the expected text by using a placeholder.
 
+<h4>OTHER FORM ELEMENTS</h4>
+We use CSS to style our forms to make them appealing to the user.
+We can add checkboxes , selects lists and radio buttons on the form.
+We achieve this by using a label and include an attribute of checked.
+We create radio-buttons by setting the type to checkbox or radio button.
+We wrap them in an element called a fieldset with a legend.
+
+<h3>ORGANIZING TABULAR INFORMATION IN HTML</h3>
+<H4>HTML TABLES</H4>
+Table element is used to tabulate content.
+Used to align the content into rows and columns.
+This is great for  product comparisons, schedules, bits of information collected that poeple want to quickly compare.
+
+<H4>BUILDING HTML TABLES</H4>
+We have several html elements for creating a tables (table, tr, th, td).
+The tablke element wraps around the whole table.
  
