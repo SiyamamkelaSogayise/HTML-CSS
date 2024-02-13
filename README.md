@@ -353,6 +353,38 @@ The head contains all the metadata the brower needs.
 The body is all the content and has various elements.
 Most action happens on the body 
 
+<H3>DOCUMENT HEAD</H3>
+The head contains important information the broswer needs to know about the website.
+The character set is not something the users need to see, its intended for the broswer.
+We use the meta element to convey it.
+The meta elements only go inside the head element as they provide metadata about the page.
+The title element does not appear on the browser tab or bookmark when its saved.
+It also appears under top sites when a new browser is opened.
+The browser uses the title everytime it refers to this page.
+The meta element is used to notify he browser that the layout is adjusted to fit smaller screen, making a responsive website.
+Without the meta element the browser assumes the page follows an outdated layout technique designed for desktops, which needs 
+scaling down for mobile devices.
+Description of website is useful and appears in search engine results.
+The link element is a crucial component used extensively within the head section.
+It connects various assets that should load like CSS files, fonts, and favicons.
+The rel attribute is used to inform the browser about the type of asset.
+Href is employed to specify URL fot the asset.
+The script tag is commonly used element in an html documnt head.
+Instrcuts the browser to load the javascript file.
+Instructs the browser to load the javascript file.
+Its typically placed at the bottom of the document, some include it in the head.
+
+<h3>CONTENT STRUCTURING</h3>
+Typical structures of the head include 6 important elements
+<dl>
+    <dt>Main </dt><dd>The main element is used per webpage and tells the browser 
+    where the main content is located</dd>
+    <dt>Header</dt><dd>This is where the files metadata lives and and is not displayed to users . Also used for sites header, article headers, and header written within the content</dd>
+   <dt>Footer</dt><dd>The footer signifies that there are extra things to convey, regardless of its position on the page</dd>
+    <dt>Article</dt><dd>Represents a standard unit of content.</dd>
+    <dt>Section</dt><dd>Used to mark sections of content. Useful for didviding different topic zones on a website</dd>
+    <dt>Aside</dt><dd>For content that is off to the side, like  sidebar information or additional details that accompany an article but are not part of its main flow</dd>
+</dl>
 
 
 
